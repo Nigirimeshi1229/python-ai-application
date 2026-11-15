@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.claude/skills/security-check-workspace/
+.claude/settings.local.json

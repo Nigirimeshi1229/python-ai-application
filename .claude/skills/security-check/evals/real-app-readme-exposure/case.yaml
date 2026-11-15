@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: real-app-readme-exposure
+expected_outcome: |
+  現在のアプリ（大きな問題は無い）を確認し、README.md のセットアップ手順の起動コマンドに
+  --server.address localhost が付いていない点を指摘する。誤った「高」の指摘や、
+  プロジェクト方針に反する認証・DB の追加提案はしない。確認して問題がなかった観点も報告する。
+context:
+  scaffold_script: place-files.sh
